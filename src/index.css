@@ -36,8 +36,14 @@ body {
 }
 
 #main-header button {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: 'Lato', sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #ffc404;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
 }
 
 h1 {
@@ -94,7 +100,6 @@ h1 {
 
 .meal-item-price {
   display: inline-block;
-  background-color: #312c1d;
   color: #ffc404;
   font-size: 0.9rem;
   font-weight: bold;
